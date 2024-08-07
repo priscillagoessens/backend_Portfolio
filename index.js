@@ -15,7 +15,7 @@ app.use(express.json());
 
 // // Configure CORS
 app.use(cors({
-    origin: 'http://localhost:3000', // Remplacez par l'URL de votre frontend
+    origin: 'https://priscillagoessens.netlify.app/', 
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
   }));
